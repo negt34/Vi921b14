@@ -1,8 +1,8 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <locale.h>
 int main(void)
 {
 	setlocale(LC_ALL, "Russian");
-	printf("Нестеров Евгений Андреевич, ВИ921Б");
+	printf("РќРµСЃС‚РµСЂРѕРІ Р•РІРіРµРЅРёР№ РђРЅРґСЂРµРµРІРёС‡, Р’Р921Р‘");
 	return 0;
 }
