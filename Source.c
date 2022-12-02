@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <conio.h>
 #include <windows.h>
 #include <locale.h>
@@ -60,23 +60,23 @@ int main(void)
 	//	printf("\n");
 	//}
 	draw();
-//закончили рисовать доску
+//Р·Р°РєРѕРЅС‡РёР»Рё СЂРёСЃРѕРІР°С‚СЊ РґРѕСЃРєСѓ
 	
 SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 point.Y = 10;
 SetConsoleCursorPosition(hout, point); 
-	printf("выберите фигуру\n1)ферзь\n2)ладья\n3)слон\n4)конь");
+	printf("РІС‹Р±РµСЂРёС‚Рµ С„РёРіСѓСЂСѓ\n1)С„РµСЂР·СЊ\n2)Р»Р°РґСЊСЏ\n3)СЃР»РѕРЅ\n4)РєРѕРЅСЊ");
 	point.Y = 14;
 	SetConsoleCursorPosition(hout, point);
 	
 	
 	mooving();
-		//закончили выбирать фигуру
+		//Р·Р°РєРѕРЅС‡РёР»Рё РІС‹Р±РёСЂР°С‚СЊ С„РёРіСѓСЂСѓ
 	//system("cls"); draw();
 		point.Y = 15;
 		point.X =0 ;
 		SetConsoleCursorPosition(hout, point);
-		printf("выберите позицию для фигуры");
+		printf("РІС‹Р±РµСЂРёС‚Рµ РїРѕР·РёС†РёСЋ РґР»СЏ С„РёРіСѓСЂС‹");
 
 		point.Y = 1;
 		point.X = 1;
@@ -150,11 +150,11 @@ SetConsoleCursorPosition(hout, point);
 int setfigure(void) {
 	switch (selectfigure)
 	{
-	case 1:SetConsoleCursorPosition(hout, pointf);  printf("Ф");
+	case 1:SetConsoleCursorPosition(hout, pointf);  printf("Р¤");
 		break;
-	case 2:SetConsoleCursorPosition(hout, pointf);  printf("Л");
+	case 2:SetConsoleCursorPosition(hout, pointf);  printf("Р›");
 		break;
-	case 3:SetConsoleCursorPosition(hout, pointf);  printf("С");
+	case 3:SetConsoleCursorPosition(hout, pointf);  printf("РЎ");
 		break;
 	case 4:SetConsoleCursorPosition(hout, pointf);  printf("K");
 		break;
@@ -162,7 +162,7 @@ int setfigure(void) {
 	
 	
 	if (pointf.Y == 1 && pointf.X == 8) {
-		point.Y = 12, point.X = 1; SetConsoleCursorPosition(hout, point); printf("вот и пришли");
+		point.Y = 12, point.X = 1; SetConsoleCursorPosition(hout, point); printf("РІРѕС‚ Рё РїСЂРёС€Р»Рё");
 	
 	
 	}
