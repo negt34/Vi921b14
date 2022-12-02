@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <locale.h>
 
 int main(void)
@@ -33,23 +33,23 @@ int main(void)
 		//printf("char%d", q);
 		switch (q)
 			{
-		case  (int)'A':case (int)'a':case 148: case 228:/* printf("влево");*/ if (a[v1][s1 - 1] != 1) {
+		case  (int)'A':case (int)'a':case 148: case 228:/* printf("РІР»РµРІРѕ");*/ if (a[v1][s1 - 1] != 1) {
 			
-			if (a[v1][s1 - 1] == 3) { system("cls"); printf("Игра пройдена"); z = 1; }
+			if (a[v1][s1 - 1] == 3) { system("cls"); printf("РРіСЂР° РїСЂРѕР№РґРµРЅР°"); z = 1; }
 			a[v1][s1] = 0; a[v1][s1 - 1] = 4; };
 		break;
-		case (int)'D':case 162: case 130: case (int)'d':/*printf("вправо");*/ if (a[v1][s1 + 1] != 1) {
-				if(a[v1][s1 + 1] == 3) { system("cls"); printf("Игра пройдена"); z = 1;
+		case (int)'D':case 162: case 130: case (int)'d':/*printf("РІРїСЂР°РІРѕ");*/ if (a[v1][s1 + 1] != 1) {
+				if(a[v1][s1 + 1] == 3) { system("cls"); printf("РРіСЂР° РїСЂРѕР№РґРµРЅР°"); z = 1;
 				};
 				a[v1][s1] = 0; a[v1][s1 + 1] = 4;
 			}; break;
-		case (int)'w':case (int)'W':case 150: case 230 :/*printf("вверх"); */if (a[v1 - 1][s1] != 1) {
-				if (a[v1 - 1][s1] == 3) { system("cls"); printf("Игра пройдена"); z = 1;
+		case (int)'w':case (int)'W':case 150: case 230 :/*printf("РІРІРµСЂС…"); */if (a[v1 - 1][s1] != 1) {
+				if (a[v1 - 1][s1] == 3) { system("cls"); printf("РРіСЂР° РїСЂРѕР№РґРµРЅР°"); z = 1;
 				};
 				a[v1][s1] = 0; a[v1-1][s1 ] = 4;
 			}; break;
-		case (int)'s':case (int)'S':case 155: case 235:/* printf("вниз");*/ if (a[v1+1][s1 ] != 1) {
-					if (a[v1 + 1][s1] == 3) { system("cls"); printf("Игра пройдена"); z = 1;
+		case (int)'s':case (int)'S':case 155: case 235:/* printf("РІРЅРёР·");*/ if (a[v1+1][s1 ] != 1) {
+					if (a[v1 + 1][s1] == 3) { system("cls"); printf("РРіСЂР° РїСЂРѕР№РґРµРЅР°"); z = 1;
 					};
 				a[v1][s1] = 0; a[v1+1][s1 ] = 4;
 			}; break;
